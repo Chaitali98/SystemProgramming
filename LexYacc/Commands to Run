@@ -1,0 +1,5 @@
+$yacc -d yac_file.c
+/* include the generated y.tab.h in lex_file.l*/
+$lex lex_file.l
+$gcc lex.yy.c y.tab.c -o output
+$./output

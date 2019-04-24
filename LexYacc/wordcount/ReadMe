@@ -1,0 +1,10 @@
+Program counts line_numbers, Character count and word count in a given text file.
+
+
+
+#commands to run on ubuntu
+
+
+$lex linecount.l
+$gcc lex.yy.c
+$./a.out <input_text_file
